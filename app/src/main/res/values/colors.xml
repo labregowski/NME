@@ -3,11 +3,11 @@
 <color name="colorPrimary">#535151</color>
 <color name="colorPrimaryDark">#000000</color>
 <color name="colorAccent">#FF4081</color>
-<!--used mainly on text-->
+
 <color name="Black">#000000</color>
 <color name="BluishBlack">#133954</color>
 <color name="White">#ffffff</color>
 <color name="LightBlue">#26aadd</color>
 
-<color name="AlmosBlack2">#212729</color>
+<color name="AlmostBlack">#212729</color>
 </resources>

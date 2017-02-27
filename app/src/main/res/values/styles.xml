@@ -44,14 +44,12 @@
             <item name="android:layout_height">wrap_content</item>
             <item name="android:layout_marginBottom">0dp</item>
         </style>
-
     <!--bckbround image -->
         <style name="BckgImg" parent="HorMatchParent_VerMatchParent">
             <item name="android:layout_marginBottom">0dp</item>
             <item name="android:scaleType">centerCrop</item>
             <item name="android:alpha">0.7</item>
         </style>
-
     <!-- HScroll Images -->
         <style name="HScrollImage" parent="HorMatchParent_VerMatchParent">
             <item name="android:adjustViewBounds">true</item>
@@ -69,7 +67,6 @@
                 <item name="android:padding">10dp</item>
                 <item name="android:background">@color/Black</item>
             </style>
-
     <!--Global Scroll-->
         <style name="GlobalScroll" parent="HorMatchParent_VertWrap">
             <item name="android:layout_marginBottom">0dp</item>
@@ -105,7 +102,7 @@
 
 <!--SubTitle text-->
     <style name="SubTitleText" parent="BasicTextViews">
-        <item name="android:textSize">15dp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/White</item>
         <item name="android:layout_marginBottom">10dp</item>
@@ -136,16 +133,16 @@
     </style>
     <!--Second column in table-->
         <style name="SecondColumn" parent="textInTable">
-    <item name="android:textSize">12dp</item>
+    <item name="android:textSize">12sp</item>
     <item name="android:layout_weight">4</item>
 </style>
+
 <!--Social Icons: Table-->
 <style name="SocialIconsTable">
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">60dp</item>
     <item name="android:orientation">horizontal</item>
 </style>
-
 <!--Social Icons-->
 <style name="SocialIcons">
     <item name="android:layout_height">match_parent</item>

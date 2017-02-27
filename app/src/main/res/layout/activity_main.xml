@@ -8,14 +8,13 @@
     android:layout_height="match_parent"
     tools:context="org.montanha.nme.MainActivity"
     >
-    <!--BACKGROUD IMAGE-->
+    <!--BACKGROUND IMAGE-->
     <ImageView
         android:id="@+id/BackgroundImage"
         style="@style/BckgImg"
         android:src="@drawable/mountain"
         android:contentDescription="@string/BackgroundImageDesc"
         />
-
     <ScrollView
         android:id="@+id/GlobalScroll"
         style="@style/GlobalScroll"
@@ -172,7 +171,6 @@
                             style="@style/textInTable"
                             android:text="@string/OpeningHours"
                             />
-
                         <TextView
                             style="@style/SecondColumn"
                             android:text="@string/openfromto"
@@ -188,7 +186,6 @@
             <LinearLayout
                 style="@style/ContainerBox"
                 android:alpha="0.85">
-
                 <TextView
                     style="@style/BoxTitle"
                     android:id="@+id/presentationText3"
