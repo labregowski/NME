@@ -11,8 +11,8 @@
 <style name="LogoStyle">
     <item name="android:layout_height">wrap_content</item>
     <item name="android:layout_width">wrap_content</item>
-    <item name="android:layout_marginBottom">20dp</item>
-    <item name="android:maxWidth">190dp</item>
+    <item name="android:layout_marginBottom">@dimen/LogoBottomMargin</item>
+    <item name="android:maxWidth">@dimen/LogoMaxWidth</item>
     <item name="android:adjustViewBounds">true</item>
 </style>
 <!--Title text-->
@@ -24,8 +24,8 @@
     <item name="android:color">@color/Black</item>
     <item name="android:textStyle">bold</item>
     <item name="android:background">@color/White</item>
-    <item name="android:layout_marginBottom">10dp</item>
-    <item name="android:layout_marginLeft">5dp</item>
+    <item name="android:layout_marginBottom">@dimen/InnerElementsGeneralBottomMargin</item>
+    <item name="android:layout_marginLeft">@dimen/LogoLeftMargin</item>
     <item name="android:layout_gravity">bottom</item>
     <item name="android:alpha">0.9</item>
 </style>
@@ -36,17 +36,17 @@
 <style name="HorMatchParent_VerMatchParent">
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">match_parent</item>
-    <item name="android:layout_marginBottom">20dp</item>
+    <item name="android:layout_marginBottom">@dimen/DefaultBottomMargin</item>
 </style>
     <!-- General Image Style -->
         <style name="GeneralImage" parent="HorMatchParent_VerMatchParent">
             <item name="android:adjustViewBounds">true</item>
             <item name="android:layout_height">wrap_content</item>
-            <item name="android:layout_marginBottom">0dp</item>
+            <item name="android:layout_marginBottom">@dimen/NoBottomMargin</item>
         </style>
     <!--bckbround image -->
         <style name="BckgImg" parent="HorMatchParent_VerMatchParent">
-            <item name="android:layout_marginBottom">0dp</item>
+            <item name="android:layout_marginBottom">@dimen/NoBottomMargin</item>
             <item name="android:scaleType">centerCrop</item>
             <item name="android:alpha">0.7</item>
         </style>
@@ -54,8 +54,8 @@
         <style name="HScrollImage" parent="HorMatchParent_VerMatchParent">
             <item name="android:adjustViewBounds">true</item>
             <item name="android:layout_width">wrap_content</item>
-            <item name="android:layout_marginRight">8dp</item>
-            <item name="android:layout_marginBottom">0dp</item>
+            <item name="android:layout_marginRight">@dimen/HorScrollPhotoRRightMargin</item>
+            <item name="android:layout_marginBottom">@dimen/NoBottomMargin</item>
         </style>
     <!--Hor100%_VertAuto-->
         <style name="HorMatchParent_VertWrap" parent="HorMatchParent_VerMatchParent">
@@ -64,30 +64,30 @@
         </style>
         <!--Containers-->
             <style name="ContainerBox" parent="HorMatchParent_VertWrap">
-                <item name="android:padding">10dp</item>
+                <item name="android:padding">@dimen/InnerElementsGeneralPadding</item>
                 <item name="android:background">@color/Black</item>
             </style>
     <!--Global Scroll-->
         <style name="GlobalScroll" parent="HorMatchParent_VertWrap">
-            <item name="android:layout_marginBottom">0dp</item>
-            <item name="android:paddingRight">12dp</item>
-            <item name="android:paddingLeft">12dp</item>
+            <item name="android:layout_marginBottom">@dimen/NoBottomMargin</item>
+            <item name="android:paddingRight">@dimen/GlobalScrolSidePadding</item>
+            <item name="android:paddingLeft">@dimen/GlobalScrolSidePadding</item>
             <item name="android:scrollbars">none</item>
         </style>
     <!--tableBtns image style-->
         <style name="btnInTable" parent="HorMatchParent_VerMatchParent">
             <item name="android:layout_height">match_parent</item>
-            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_width">@dimen/Width0_toUseWeight</item>
             <item name="android:layout_weight">1</item>
             <item name="android:padding">@dimen/textHorPadding</item>
-            <item name="android:layout_margin">0dp</item>
+            <item name="android:layout_margin">@dimen/NoMargin</item>
         </style>
 
 <!--tableLines-->
 <style name="TableRow">
     <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">45dp</item>
-    <item name="android:layout_marginTop">6dp</item>
+    <item name="android:layout_height">@dimen/tblRowHeight</item>
+    <item name="android:layout_marginTop">@dimen/tblRowTopMargin</item>
 </style>
 
 <!--text styles-->
@@ -102,30 +102,30 @@
 
 <!--SubTitle text-->
     <style name="SubTitleText" parent="BasicTextViews">
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/BasicTexFontSize</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/White</item>
-        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginBottom">@dimen/InnerElementsGeneralBottomMargin</item>
     </style>
 <!--Sticker-->
     <style name="Sticker" parent="BasicTextViews">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textColor">@color/Black</item>
         <item name="android:background">@color/White</item>
-        <item name="android:textSize">13sp</item>
-        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/StickerFontSize</item>
+        <item name="android:padding">@dimen/InnerElementsGeneralPadding</item>
         <item name="android:textAllCaps">true</item>
     </style>
 <!--BoxTitle-->
     <style name="BoxTitle" parent="BasicTextViews">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textColor">@color/White</item>
-        <item name="android:textSize">13sp</item>
-        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/BoxTitleFontSize</item>
+        <item name="android:padding">@dimen/InnerElementsGeneralPadding</item>
     </style>
 <!--Text inside table-->
     <style name="textInTable" parent="BasicTextViews">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">@dimen/Width0_toUseWeight</item>
         <item name="android:layout_weight">2</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:gravity">center_vertical</item>
@@ -133,23 +133,23 @@
     </style>
     <!--Second column in table-->
         <style name="SecondColumn" parent="textInTable">
-    <item name="android:textSize">12sp</item>
-    <item name="android:layout_weight">4</item>
-</style>
+            <item name="android:textSize">@dimen/TableSecondColumnFontSize</item>
+            <item name="android:layout_weight">4</item>
+        </style>
 
 <!--Social Icons: Table-->
 <style name="SocialIconsTable">
     <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">60dp</item>
+    <item name="android:layout_height">@dimen/SocialIconsTableHeight</item>
     <item name="android:orientation">horizontal</item>
 </style>
 <!--Social Icons-->
 <style name="SocialIcons">
     <item name="android:layout_height">match_parent</item>
-    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_width">@dimen/Width0_toUseWeight</item>
     <item name="android:layout_weight">1</item>
     <item name="android:adjustViewBounds">true</item>
-    <item name="android:padding">12dp</item>
+    <item name="android:padding">@dimen/SocialIconsPadding</item>
     <item name="android:onClick">openBrowser</item>
 </style>
 </resources>
