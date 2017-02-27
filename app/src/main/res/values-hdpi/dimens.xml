@@ -1,0 +1,4 @@
+<resources>
+<!--In very ldpi, needs to be smaller. SO, the need to set up here-->
+    <dimen name="titleFontSize">16sp</dimen>
+</resources>

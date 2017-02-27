@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">NME</string>
+    <string name="LogoDesc">NME logo</string>
+
+<!--Image Descriptions-->
+    <string name="BackgroundImageDesc">Picture of a Greenish Mountain with a Trail</string>
+    <string name="Climber">Climber</string>
+    <string name="KidsClimbing">Kids Climbing</string>
+    <string name="TrailRunning">Trail Running</string>
+    <string name="snowtrail">Snow Trail</string>
+    <string name="Climber2">Climber</string>
+
+    <string name="PhoneIcon">Phone Icon</string>
+    <string name="AtIcon">At Icon</string>
+    <string name="PinRoutIcon">Pin Route Icon</string>
+    <string name="WebPageLinkIcon">Web PageLink Icon</string>
+    <string name="FacebookLinkIcon">Facebook Link Icon</string>
+    <string name="TwitterLinkIcon">Twitter Link Icon</string>
+
+<!--Logo Area-->
+    <string name="TitleText">_NÚCLEO de MONTANHA</string>
+
+<!--First Container-->
+    <string name="PresentationText1">NME - Núcleo de Montanha de Espinho - the town\’ s mountain aficionados\' group.</string>
+    <string name="PresentationText2">Mostly, we are a group of people who respect nature and feel compelled to go to the open, instead of staying in the couch or go to the mall.</string>
+
+<!--Ticker-->
+    <string name="friendsWelcome">New friends are welcome :).</string>
+
+<!--Second Container-->
+    <string name="PresentationText4">Feel the nature calling? Feel like trekking, mountain running, alpinism, canyoning? say Hi!.\nNew friends are welcome :).\n\nAfter you join us in a couple of activities, we\'ll take care of the paper work.</string>
+    <string name="SayHi">say Hi!</string>
+<!--Second Container: Table-->
+    <string name="callUs">Call Us</string>
+    <string name="emailUs">email Us</string>
+    <string name="FindUs">Find Us</string>
+    <string name="OpeningHours">Opening\nHours</string>
+    
+    <string name="telephonenumber">917 684 637</string>
+    <string name="email">info@montanha.org</string>
+    <string name="address">Nave Desportiva\nRua de Sales, s/n, 4500-574 Silvalde</string>
+    <string name="openfromto">Tuesday to Saturday,\nfrom 18:00 to 23:00</string>
+
+<!--Third Container-->
+    <string name="PresentationText3">Check our web page, follow us on facebook and twitter - you\'ll know what we are up to.</string>  
+
+</resources>
+
