@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+//
+//
+// OPEN HTTP LINK
+//
     public void openBrowser(View view){
         //Get url from tag
         String url = (String)view.getTag();
